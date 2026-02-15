@@ -1,0 +1,46 @@
+[window]
+opacity = 0.5
+decorations = "Full"
+startup_mode = "Windowed"
+dynamic_title = true
+
+
+[window.padding]
+x = 10
+y = 10
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+size = 8.0
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMonoNL Nerd Font Mono"
+style = "Bold Italic"
+
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+[selection]
+save_to_clipboard = true
+
+[general]
+live_config_reload = true
+import = [
+  "~/.config/alacritty-themes/themes/dark_pride.toml"
+]
