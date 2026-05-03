@@ -2,10 +2,10 @@ return {
   "rebelot/kanagawa.nvim",
   priority = 1000,
   config = function()
-    local transparent = true
+    local transparent = false
 
     require("kanagawa").setup({
-      style = "dragon",
+      style = "wave",
       dimInactive = true,
       transparent = transparent,
       statementStyle = { bold = true },
