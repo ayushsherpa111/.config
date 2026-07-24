@@ -1,4 +1,5 @@
 source ~/.config/fish/functions/load_nvm.fish
+source ~/.cargo/env.fish
 if status is-interactive
 # Commands to run in interactive sessions can go here
 load_nvm > /dev/stderr
