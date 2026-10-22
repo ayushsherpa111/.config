@@ -36,6 +36,13 @@ set -x PATH /usr/lib/jvm/default-java/bin/ $ANDROID_HOME/platform-tools $ANDROID
 
 alias espsh="source ~/.espressif/tools/activate_idf_v6.1.fish"
 
+set -x ANTHROPIC_AUTH_TOKEN ollama
+set -x ANTHROPIC_BASE_URL "http://localhost:11434"
+# Claude Code asks for Sonnet/Haiku/Opus by name, so map them to your local model:
+set -x ANTHROPIC_DEFAULT_SONNET_MODEL "qwen3.5"
+set -x ANTHROPIC_DEFAULT_HAIKU_MODEL "qwen3.5"
+set -x ANTHROPIC_DEFAULT_OPUS_MODEL "qwen3.5"
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/Workspace/google-cloud-sdk/path.fish.inc" ]; . "$HOME/Workspace/google-cloud-sdk/path.fish.inc"; end
 
